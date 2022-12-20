@@ -1,0 +1,29 @@
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  /* NAVBAR */
+
+  .banner {
+    width: 100%;
+    height: 400px;
+  }
+  .banner h1 {
+    font-size: 25px;
+  }
+  .img-QA {
+    display: none;
+  }
+  /* SECTION2 */
+  .section2 {
+    height: auto;
+    padding: 16px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  /* ARTICLE1 */
+  .article1 img {
+    width: 50px;
+    height: auto;
+  }
+}
